@@ -1,0 +1,19 @@
+[package]
+name = "rust-logger"
+version = "0.1.0"
+edition = "2021"
+authors = ["Sans-Atout <augustin.rousset-rouviere@isep.fr>"] 
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+# Example of customizing the library in Cargo.toml.
+[lib]
+path = "src/lib.rs"
+edition = "2021"      
+crate-type = ["lib"]   
+required-features = [] 
+
+[dependencies]
+termion = "1.5.6"
+chrono = "0.4"
+try-catch = "0.2.2"
