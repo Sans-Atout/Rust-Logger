@@ -9,8 +9,9 @@ authors = ["Sans-Atout <augustin.rousset-rouviere@isep.fr>"]
 # Example of customizing the library in Cargo.toml.
 [lib]
 path = "src/libs.rs"
-edition = "2021"      
-crate-type = ["lib"]   
+crate-type = ["lib"] 
+bench = false
+
 
 [dependencies]
 termion = "1.5.6"

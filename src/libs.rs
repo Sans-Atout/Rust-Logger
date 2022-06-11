@@ -123,7 +123,7 @@ impl LogEntity{
             LogLevel::ERROR => {
                 println!("{}{}[{}{}{}]\t[{}ERROR\t{}] {}", style::Bold, color::Fg(color::White),
                 color::Fg(color::LightBlack), date_time, color::Fg(color::White), 
-                color::Fg(color::LightcRed), color::Fg(color::White), self.log_message);
+                color::Fg(color::LightRed), color::Fg(color::White), self.log_message);
 
             },
             LogLevel::FATAL => {
