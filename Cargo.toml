@@ -3,6 +3,8 @@ name = "rust-logger"
 version = "0.1.0"
 edition = "2021"
 authors = ["Sans-Atout <augustin.rousset-rouviere@isep.fr>"] 
+description = "A rust logging library"
+license = "MIT OR Apache-2.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -11,7 +13,6 @@ authors = ["Sans-Atout <augustin.rousset-rouviere@isep.fr>"]
 path = "src/libs.rs"
 crate-type = ["lib"] 
 bench = false
-
 
 [dependencies]
 termion = "1.5.6"
